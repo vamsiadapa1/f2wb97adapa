@@ -7,7 +7,7 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var GameRouter = require('./routes/Game');
-var GridbuildRouter = require('./routes/Gridbuild');
+var GridbuildRouter = require('./routes/gridbuild');
 var selectorRouter = require('./routes/selector');
 
 var app = express();
